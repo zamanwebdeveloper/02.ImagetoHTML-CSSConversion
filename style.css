@@ -1,0 +1,50 @@
+*{margin:0; padding:0; outline:0}
+body{font-family:arial; font-size:14px; line-height:18px; color:#333;}
+.template{width:725px; margin:0 auto}
+.clear{overflow:hidden;}
+.headersection{}
+.header{}
+.headerleft{}
+.headerleft h2{}
+.headerright{}
+.headerright a{}
+.headerright a:hover{}
+.mainsection{}
+.slogansection{}
+.slogansection h2{}
+.slogansection h3{}
+.description{}
+.description p{}
+.contentsection{}
+.service{}
+.service h2{}
+.service p{}
+
+.readmore{}
+.readmore a{}
+.readmore a:hover{}
+
+.mainbottom{}
+.clientsection{}
+.clientsection h2{}
+
+.testimonial{}
+.clientimage{}
+.clientimage img{}
+
+.clientdesc{}
+.clientdesc p{}
+
+.clientname{}
+.projectsection{}
+.projectsection h2{}
+.projectsection h3{}
+.projectsection img{}
+.projectsection p{}
+.projectsection p a{}
+.footersection{}
+.footersection p{}
+.{}
+.{}
+.{}
+.{}
