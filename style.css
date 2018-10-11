@@ -105,7 +105,7 @@ body{font-family:arial; font-size:14px; line-height:18px; color:#333; background
     border-top: 2px dotted #CCCCCC;
     padding-top: 30px;
     border-bottom: 2px dotted #CCCCCC;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-bottom: 30px;
 }
 .clientsection {
@@ -147,18 +147,41 @@ body{font-family:arial; font-size:14px; line-height:18px; color:#333; background
     font-weight: bold;
     margin-top: 8px;
 }
-
 .projectsection{width: 400px; float: right;}
 .projectsection h2{
     font-size: 25px;
     color: #666;
     line-height: 30px;
 }
-.projectsection h3{}
-.projectsection img{}
-.projectsection p{}
-.projectsection p a{}
+.projectsection h3 {
+    color: #999;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.projectsection img {
+    width: 398px;
+    height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.projectsection p {
+    color: #666;
+    margin-bottom: 10px;
+}
+.projectsection a {
+    text-decoration: none;
+    color: #00ADEF;
+    font-size: 16px;
+}
+
 .footersection{background: #FFFFFF;}
-.footersection p{}
+.footersection p {
+    margin-left: 50px;
+    padding-bottom: 20px;
+    color: #999;
+}
 
 
