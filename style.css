@@ -2,10 +2,10 @@
 body{font-family:arial; font-size:14px; line-height:18px; color:#333; background:#ECE8D6}
 .template{width:960px; margin:0 auto}
 .clear{overflow:hidden;}
-.headersection{background:#333333; height:80px;}
-.header{}
+.headersection{}
+.header{background:#333333; height:80px;}
 .headerleft {
-    width: 520px;
+    width: 450px;
     color: #fff;
     float: left;
 }
@@ -15,7 +15,7 @@ body{font-family:arial; font-size:14px; line-height:18px; color:#333; background
     padding-left: 25px;
 }
 .headerright {
-    width: 430px;
+    width: 510px;
     float: right;
     color: #fff;
     padding-top: 35px;
@@ -54,13 +54,47 @@ body{font-family:arial; font-size:14px; line-height:18px; color:#333; background
     padding-bottom: 30px;
 }
 .description p{}
-.contentsection{}
-.service{}
-.service h2{}
-.service p{}
+.contentsection {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.service {
+    background: #00ADEF;
+    width: 210px;
+    margin-left: 52px;
+    float: left;
+    padding: 20px;
+}
+.service h2 {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 27px;
+    text-align: center;
+}
+.service p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+}
 
-.readmore{}
-.readmore a{}
+.readmore {
+    background: #0078A5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.readmore a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .readmore a:hover{}
 
 .mainbottom{}
