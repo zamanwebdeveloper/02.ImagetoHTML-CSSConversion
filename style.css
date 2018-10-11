@@ -1,5 +1,5 @@
 *{margin:0; padding:0; outline:0}
-body{font-family:arial; font-size:14px; line-height:18px; color:#333;}
+body{font-family:arial; font-size:14px; line-height:18px; color:#333; background:#ECE8D6}
 .template{width:960px; margin:0 auto}
 .clear{overflow:hidden;}
 .headersection{background:#333333; height:80px;}
@@ -27,11 +27,32 @@ body{font-family:arial; font-size:14px; line-height:18px; color:#333;}
     font-weight: bold;
 }
 .headerright a:hover, #active{color:#00ACF3;}
-.mainsection{}
-.slogansection{}
-.slogansection h2{}
-.slogansection h3{}
-.description{}
+.mainsection{background: white}
+.slogansection {
+    margin-left: 50px;
+    border-bottom: 2px dotted #646464;
+    margin-right: 50px;
+    margin-top: 30px;
+    padding-bottom: 28px;
+}
+.slogansection h2 {
+    font-size: 50px;
+    line-height: 80px;
+    color: #000;
+}
+.slogansection h3 {
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B5B5B;
+}
+.description {
+    margin: 28px 50px 50px 50px;
+    font-size: 27px;
+    line-height: 30px;
+    color: #666;
+    border-bottom: 2px dotted #5B5B5B;
+    padding-bottom: 30px;
+}
 .description p{}
 .contentsection{}
 .service{}
