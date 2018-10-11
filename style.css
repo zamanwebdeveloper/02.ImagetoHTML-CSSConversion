@@ -1,14 +1,32 @@
 *{margin:0; padding:0; outline:0}
 body{font-family:arial; font-size:14px; line-height:18px; color:#333;}
-.template{width:725px; margin:0 auto}
+.template{width:960px; margin:0 auto}
 .clear{overflow:hidden;}
-.headersection{}
+.headersection{background:#333333; height:80px;}
 .header{}
-.headerleft{}
-.headerleft h2{}
-.headerright{}
-.headerright a{}
-.headerright a:hover{}
+.headerleft {
+    width: 520px;
+    color: #fff;
+    float: left;
+}
+.headerleft h2{
+	font-size: 40px;
+    line-height: 65px;
+    padding-left: 25px;
+}
+.headerright {
+    width: 430px;
+    float: right;
+    color: #fff;
+    padding-top: 35px;
+}
+.headerright a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.headerright a:hover, #active{color:#00ACF3;}
 .mainsection{}
 .slogansection{}
 .slogansection h2{}
